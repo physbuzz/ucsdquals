@@ -1,0 +1,68 @@
+
+
+
+<html><head>
+
+<title>UCSD physics quals quiz</title>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$']],
+      processEscapes: true
+    }
+  });
+</script>
+<style>
+.other {
+  border: 1px solid #DDD;
+}
+.descriptor {
+  border: 2px solid #3F51B5;
+  background: #fafbff;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+    margin-bottom:20px;
+}
+.content {
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="quiz.js"></script>
+<script src="mechanics.js"></script>
+  </head>
+<body>
+  <div class="content">
+    <div class="descriptor">
+<h2>Physics Qualifying Exam Flash Cards</h2>
+
+<p>Flash card questions for the UCSD physics qualifying exams. Check the desired subjects and start answering questions.</p>
+<p><em>About the quiz.</em> All questions are intended to be "small". ie, you should have an outline of the derivation memorized, 
+and possibly the answer memorized too. Some can be solved in your head. 
+Some are really difficult to answer immediately, but the idea of putting them on flash cards is to drill them until the solution methods and/or answers are immediate.
+It's fine to pull out a piece of paper for the first few times you encounter a question though.</p>
+    </div> <!-- descriptor -->
+
+<div id="showall" style="margin-left:auto;margin-right:auto;text-align:center;"><button style="text-align:center;margin-left:auto;margin-right:auto;" type="button" onclick="displayAllToggle();">Show All Questions</button>
+</div>
+<div id="subjects" style="margin-left:auto;margin-right:auto;text-align:center;">
+</div>
+<div class="clear" style="clear:both;"></div>
+<div id="button" style="text-align:center;">
+<button style="text-align:center;margin-left:auto;margin-right:auto;" type="button" onclick="showNewQuestion()">Another question</button>
+</div>
+
+<div id="question">
+</div>
+<div id="other" class="other">
+</div>
+<div style="width:100%;height:500px;"></div>
+  </div> <!-- content -->
+</body>
+</html>
