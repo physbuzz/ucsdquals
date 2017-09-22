@@ -1,4 +1,5 @@
 
+var questiondata=[];
 
 
 var list=[];
