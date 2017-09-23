@@ -1,4 +1,3 @@
-var questiondata=[];
 questiondata["Classical_Mechanics"]=[
 {q:"Define stress, strain, Young's modulus, and the bulk modulus.",a:"Stress is the average force per unit area that a particle of a body exerts on an adjacent particle, across an imaginary surface that separates them: $\\sigma=F/A$ (it's like a tension but can also handle compression). Strain is the fractional elongation of an object: $\\varepsilon=\\delta L/L$. Young's modulus is the ratio between stress and strain: $\\sigma=Y\\varepsilon$. The bulk modulus is a measure of how much an object will be compressed under external pressure: bulk modulus = - ( pressure applied / fractional change in volume)."},
 {q:"Give the phase velocity and group velocity of a wave in terms of the relevant properties.",a:"The phase velocity is $\\frac{\\omega}{k}$. The group velocity is $\\frac{d\\omega}{dk}$."},
