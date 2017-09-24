@@ -35,7 +35,7 @@ questiondata["EM"]=[
 {q:"Solve Laplace's equation in spherical coordinates with azimuthal symmetry. (Just memorize the answer!)", a:"$\\phi(r,\\theta)=\\sum_{i=0}^{\\infty}(A_i r^i+B_i r^{-i-1})P_i(\\cos(\\theta))$"},
 //Fundamental Memorization
 {q:"List off Maxwell's equations.",a:"$$\\nabla\\cdot E=\\rho/\\varepsilon_0$$ $$\\nabla \\times E=-\\partial_t B$$ $$\\nabla \\cdot B=0$$ $$\\nabla \\times B=\\mu_0 J+\\mu_0 \\varepsilon_0 \\partial_t E$$"},
-{q:"How are the electromagnetic vector and scalar potentials related to the electric and magnetic fields?",a:"$$\\vec{E}=-\\nabla \\phi-\\frac{\\partial \\vec{A}}{\\partial t}$$ $$\\vec{B}=\\nabla \\times \\vec{A}$$."},
+{q:"How are the electromagnetic vector and scalar potentials related to the electric and magnetic fields?",a:"$$\\vec{E}=-\\nabla \\phi-\\frac{\\partial \\vec{A}}{\\partial t}$$ $$\\vec{B}=\\nabla \\times \\vec{A}$$"},
 {q:"What are the relations between $E$ and $D$, and $B$ and $H$? What about in materials with linear susceptibility?",a:"We have $\\vec{D}=\\varepsilon_0 \\vec{E}+\\vec{P}$, and $\\vec{H}=\\frac{1}{\\mu_0}\\vec{B}-\\vec{M}$. Linear polarizability means $P=\\chi_e \\varepsilon_0 \\vec{E}$, so that we can write $\\vec{D}=\\varepsilon_0(1+\\chi_e)\\vec{E}=\\varepsilon\\vec{E}$. Linear magnetizability, is defined a bit differently: $\\vec{M}=\\chi_m \\vec{H}$. So we have $\\mu_0 \\vec{H}+\\mu_0 \\chi_m \\vec{H}=\\mu \\vec{H}=\\vec{B}$, where $\\mu=\\mu_0(1+\\chi_m)$."},
 {q:"What is the relationship between magnetic susceptibility $\\chi_m$, magnetic permeability $\\mu$ and the $\\vec{H}$ and $\\vec{B}$ fields in linear media?",a:"$\\mu\\vec{H}=\\vec{B}$ where $\\mu=\\mu_0(1+\\chi_m)$ and $\\vec{M}=\\chi_e \\vec{H}$."},
 {q:"What is the relationship between electric susceptibility $\\chi_e$, electric permittivity $\\varepsilon$, and the $\\vec{D}$ and $\\vec{E}$ fields in linear media?",a:"$\\vec{D}=\\varepsilon \\vec{E}$, $\\varepsilon=\\varepsilon_0(1+\\chi_e)$ and further $\\vec{D}=\\chi_e \\vec{E}$."},
@@ -71,6 +71,8 @@ questiondata["EM"]=[
 {q:"What is the EMF around a loop enclosing a uniform changing magnetic field?",a:"${\\mathcal {E}}=-{\\frac {\\partial \\Phi }{\\partial t}}$ (Lenz's Law)"},
 
 //Conservation laws
+{q:"What is the momentum density of the electrodynamic field?",a:"$\\mu_0 \\varepsilon_0 \\vec{S}=\\varepsilon_0\\vec{E}\\times\\vec{B}$."},
+
 
 //Waves and waveguides and waves
 {q:"Write the formula for an EM wave in terms of E",a:"In complex notation, where $\\omega/k=c$, $$\\vec{E}=\\vec{E}_0 e^{i(\\vec{k}\\cdot \\vec{r}-\\omega t)}$$ $$\\vec{B}=\\frac{1}{c} \\hat{k}\\times \\vec{E}$$"},
